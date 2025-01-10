@@ -5,36 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Discover African Music</title>
+    <!-- Meta information to define character set and viewport settings -->
 </head>
 
 <body>
+    <!-- HEADER: Contains the main title of the site -->
     <header>
         <h1>Discover African Music</h1>
     </header>
+
+    <!-- MAIN CONTENT AREA -->
     <main>
+        <!-- HERO SECTION: Introduction and embedded YouTube video -->
         <section class="hero">
             <h2>Experience the Rich Heritage of African Music</h2>
             <p>Journey through the diverse rhythms and melodies of the continent</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/akEZeHBOyko?si=cM5OCwg_u4rcU72v"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/akEZeHBOyko?si=cM5OCwg_u4rcU72v" 
+                title="YouTube video player" 
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
+            <!-- Embedded YouTube video showcasing African music -->
         </section>
 
+        <!-- FEATURED ARTISTS SECTION -->
         <section class="featured-artists">
             <h2>Featured Artists</h2>
+            <!-- Each artist is represented by a figure element -->
             <figure>
-                <img src="https://imgs.search.brave.com/vNDFAqFWUsCgOxIf_SgIzt4fwyKtoKN1kXFaZ0RhVlY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTk2/ODc1MTU1Ni9waG90/by9sb25kb24tZW5n/bGFuZC1hbmdlbGlx/dWUta2lkam8tcGVy/Zm9ybXMtYXQtdGhl/LW8yLWFyZW5hLW9u/LWphbnVhcnktMjgt/MjAyNC1pbi1sb25k/b24tZW5nbGFuZC5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/VjJEZzZpLW1mWFBs/QzRhMlJ0eFY1dThY/X3NXZFlhU0YydHFo/N3NRYU1rVT0"
+                <img src="https://imgs.search.brave.com/vNDFAqFWUsCgOxIf_SgIzt4fwyKtoKN1kXFaZ0RhVlY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTk2/ODc1MTU1Ni9waG90/by9sb25kb24tZW5n/bGFuZC1hbmdlbGlx/dWUta2lkam8tcGVy/Zm9ybXMtYXQtdGhl/LW8yLWFyZW5hLW9u/LWphbnVhcnktMjgt/MjAyNC1pbi1sb25k/b24tZW5nbGFuZC5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/VjJEZzZpLW1mWFBs/QzRhMlJ0eFY1dThY/X3NXZFlhU0YydHFo/N3NRYU1rVT0" 
                     alt="Angélique Kidjo performing">
                 <figcaption>
                     <h3>Angélique Kidjo</h3>
-                    <p>Five-time Grammy winner from <mark>Benin</mark>, known for blending African traditions with pop
-                        music.</p>
+                    <p>Five-time Grammy winner from <mark>Benin</mark>, known for blending African traditions with pop music.</p>
                     <a href="artists/angelique-kidjo.html">Learn more</a>
                 </figcaption>
             </figure>
             <figure>
-                <img src="https://imgs.search.brave.com/NGGPke5Y3luUacJyV_peYFT6nGIlgYrr-7VlkFziLDw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sYXN0/Zm0uZnJlZXRscy5m/YXN0bHkubmV0L2kv/dS9hdmF0YXIxNzBz/L2ZhMmMwZTU3Mzcx/MWI4ZDhiMmYxNjBl/ZmQyNTYxYTM2"
+                <img src="https://imgs.search.brave.com/NGGPke5Y3luUacJyV_peYFT6nGIlgYrr-7VlkFziLDw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sYXN0/Zm0uZnJlZXRscy5m/YXN0bHkubmV0L2kv/dS9hdmF0YXIxNzBz/L2ZhMmMwZTU3Mzcx/MWI4ZDhiMmYxNjBl/ZmQyNTYxYTM2" 
                     alt="Burna Boy in concert">
                 <figcaption>
                     <h3>Burna Boy</h3>
@@ -43,7 +53,7 @@
                 </figcaption>
             </figure>
             <figure>
-                <img src="https://imgs.search.brave.com/lxlPcyHiaF19YtKHqgIoTOi8KWBcgjhiZOGIwLkQro8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLmd1/aW0uY28udWsvaW1n/L3N0YXRpYy9zeXMt/aW1hZ2VzL09ic2Vy/dmVyL0NvbHVtbmlz/dC9Db2x1bW5pc3Rz/LzIwMTIvMS82LzEz/MjU4ODMyOTU1NjEv/WW91c3NvdS1ORG91/ci0wMDUuanBnP3dp/ZHRoPTI0MCZkcHI9/MSZzPW5vbmUmY3Jv/cD1ub25l"
+                <img src="https://imgs.search.brave.com/lxlPcyHiaF19YtKHqgIoTOi8KWBcgjhiZOGIwLkQro8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLmd1/aW0uY28udWsvaW1n/L3N0YXRpYy9zeXMt/aW1hZ2VzL09ic2Vy/dmVyL0NvbHVtbmlz/dC9Db2x1bW5pc3Rz/LzIwMTIvMS82LzEz/MjU4ODMyOTU1NjEv/WW91c3NvdS1ORG91/ci0wMDUuanBnP3dp/ZHRoPTI0MCZkcHI9/MSZzPW5vbmUmY3Jv/cD1ub25l" 
                     alt="Youssou N'Dour performing">
                 <figcaption>
                     <h3>Youssou N'Dour</h3>
@@ -53,6 +63,7 @@
             </figure>
         </section>
 
+        <!-- EXPLORE GENRES SECTION -->
         <section class="explore-genres">
             <h2>Explore African Music Genres</h2>
             <ul>
@@ -62,6 +73,7 @@
             </ul>
         </section>
 
+        <!-- LATEST NEWS SECTION -->
         <section class="latest-news">
             <h2>Latest News</h2>
             <article>
@@ -76,6 +88,8 @@
             </article>
         </section>
     </main>
+
+    <!-- FOOTER SECTION -->
     <footer>
         <p>&copy; 2024 African Music Heritage. All rights reserved.</p>
     </footer>
