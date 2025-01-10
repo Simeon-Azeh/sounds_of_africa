@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - African Music Heritage</title>
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+    </header>
+    <main class="container">
+        <section class="mission">
+            <h2>Our Mission</h2>
+            <p>
+                At <strong>African Music Heritage</strong>, our mission is to promote the rich diversity and cultural significance of African music. 
+                We aim to showcase traditional and modern African music genres, connect fans with artists, and provide a platform for discovery, education, and celebration of Africa's vibrant musical heritage.
+            </p>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="/submit-contact" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <label for="country">Country:</label>
+                <input list="countries" id="country" name="country" required>
+                <datalist id="countries">
+                    <option value="Nigeria">
+                    <option value="Ghana">
+                    <option value="South Africa">
+                    <option value="Kenya">
+                    <option value="Ethiopia">
+                    <option value="Cameroon">
+                    <option value="Uganda">
+                </datalist>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section class="location">
+            <h2>Our Location</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345094074!2d144.9630577153188!3d-37.8162799797519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f1e0f3f7%3A0x2a02f0b8d1799e8f!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1612324358478!5m2!1sen!2sau" 
+                allowfullscreen 
+                loading="lazy">
+            </iframe>
+        </section>
+    </main>
+    <footer>
+        <form action="/subscribe-newsletter" method="post">
+            <label for="newsletter">Subscribe to Our Newsletter:</label>
+            <input type="email" id="newsletter" name="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+        <p>&copy; 2024 African Music Heritage. All rights reserved.</p>
+    </footer>
+</body>
+</html>
